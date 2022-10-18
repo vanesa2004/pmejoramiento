@@ -1,0 +1,313 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+}
+
+main{  /* contenedor principal */
+    display: flex;
+    flex-grow: 1;
+    background-color: #272944;
+}
+
+#aside{  /* seccion izquierdo */
+    background-color: #272944;
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;  
+}
+
+.circle{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.circlee{
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+    background-color: #363853;
+}
+
+.conten1{
+    display: flex;
+    align-items: center;
+    
+}
+
+.frame{
+    border-radius: 0%;
+    width: 20px;
+    height: 20px;
+    background-color: #363853;
+}
+
+p{
+    margin-left: 8px;
+    color: white;
+}
+
+.setting{  /*  */
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+#container{  /* contenedor secundario*/
+    flex-grow: 1;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #272944;
+    padding-right: 15px;
+}
+
+.en{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #272944;  
+    width: 990px;
+}
+
+.article{
+    background-color: #484a63;
+    width: 450px;
+    height: 35px;
+    display: flex;
+    padding-bottom: 6px;
+}
+
+.frame2{
+    border-radius: 0%;
+    width: 20px;
+    height: 20px;
+    background-color: #363853;   
+}
+
+.se{
+    color: #363853;
+}
+
+.articlee{
+    background-color:#272944;
+    display: flex;
+    flex-direction: row;
+}
+
+.box{
+    background-color: #272944;
+    display: flex;
+    flex-direction: row;
+    width: 70px;
+    height: 41px;
+    margin-right: 10px;
+}
+.frame5{
+    border-radius: 0%;
+    width: 15px;
+    height: 15px;
+    background-color: #363853;
+    margin-left: 15px;
+}
+
+.frames{
+    background-color: #272944;
+    width: 100px;
+    height: 41px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.fram1{
+    width: 35px;
+    height: 35px;
+    background-color: #363853;
+}
+
+.fram2{
+    width: 35px;
+    height: 35px;
+    background-color: #363853;
+}
+
+#section{
+    background-color: #272944;
+    display: flex;
+    flex-direction: column;
+}
+
+.users{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 20px;
+    height: 50px;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+}
+
+.tit{
+    color: white;
+    font-size: 29px;
+}
+
+.all{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.frame1{
+    display: flex;
+    flex-direction: row;
+    color: azure;
+    align-items: center;
+    font-size: 13px;
+}
+
+.of{
+    color: white;
+}
+
+.frame2{
+    border-radius: 0%;
+    width: 18px;
+    height: 18px;
+    background-color: #363853;
+}
+
+.content{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.name{
+    display: flex;
+    flex-direction: row;
+    background-color: #272944;
+    flex-grow: 1;
+    height: 40px;
+    justify-content: space-between;
+}
+
+.one{
+    display: flex;
+    flex-direction: row;
+    width: 430px;
+    justify-content: space-between;
+}
+
+.two{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 440px;
+
+}
+
+.status{
+    color: #363853;
+}
+
+.statu{
+    margin-left: 28px;
+    color: #363853;
+}
+
+.stat{
+    margin-right: 55px;
+    color: #363853;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    height: 28rem;
+    overflow-y: scroll;
+}
+
+.first{
+    background-color: #272944;
+    display: flex;
+    flex-direction: row;
+    height: 55px;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+
+.left{  /*  */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.together{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.usuario{
+    color: white;
+}
+
+.nombre{
+    margin-left: -15px;
+    color: white;
+}
+
+.email{
+    color: white;
+}
+
+.date{
+    color: white;
+}
+
+.role{
+    color: white;
+}
+
+.estado{
+    margin-right: 50px;
+    border: 1px solid white;
+    background-color: #272944;
+    width: 70px;
+    height: 30px;
+    color: #F9F9FA;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.circle2{
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    background-color: #363853;
+}
+
+.right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 410px;
+}

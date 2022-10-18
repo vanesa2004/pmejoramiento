@@ -1,0 +1,424 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+}
+
+main{  /* contenedor principal */
+    display: flex;
+    flex-grow: 1;
+}
+
+#aside{  /* seccion izquierdo */
+    background-color: #F9F9FA;
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;  
+}
+
+.circle{
+    display: flex;
+    margin-left: 70px;
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 30px;
+    background-color: #FFFFFF;
+    align-items: center;
+}
+
+.bord{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 130px;
+    height: 40px;
+    margin-left: -20px;
+}
+
+.circ{
+    border-radius: 100%;
+    width: 10px;
+    height: 10px;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4px;
+    margin-right: -7px;
+}
+
+.inder{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    font-size: 40px;
+}
+
+.ind{
+    font-size: 40px;
+    color: #272944;
+}
+
+.small{
+    border-radius: 100%;
+    width: 10px;
+    height: 10px;
+    background-color: #404BD4;
+}
+
+.conten1{
+    display: flex;
+    align-items: center;
+    
+}
+
+.frame{
+    border-radius: 0%;
+    width: 20px;
+    height: 20px;
+    background-color: #F9F9FA;
+}
+
+p{
+    margin-left: 8px;
+    color: #272944;
+}
+
+#container{  /* contenedor secundario*/
+    flex-grow: 1;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+}
+
+.en{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #FFFFFF;  
+    width: 990px;
+}
+
+.article{
+    background-color: #F9F9FA;
+    width: 450px;
+    height: 35px;
+    display: flex;
+    padding-bottom: 6px;
+}
+
+.article .fa.sharp{
+    color: gray;
+}
+
+.frame2{
+    border-radius: 0%;
+    width: 20px;
+    height: 20px;
+    background-color: #F9F9FA;   
+}
+
+.se{
+    color: #363853;
+}
+
+.articlee{
+    background-color:#FFFFFF;
+    display: flex;
+    flex-direction: row;
+}
+
+.box{
+    background-color: #F9F9FA;
+    display: flex;
+    flex-direction: row;
+    width: 70px;
+    height: 41px;
+    margin-right: 10px;
+    align-items: center;
+}
+
+.frames{
+    background-color: #FFFFFF;
+    width: 100px;
+    height: 41px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.fram1{
+    width: 35px;
+    height: 35px;
+    background-color: #F9F9FA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fram1 .fa.sharp{
+    display: flex;
+    align-items: center;
+}
+
+.fram2{
+    width: 35px;
+    height: 35px;
+    background-image: url(../imagenes/gato.jpg);
+    border-radius: 100%;
+}
+
+#section{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+}
+
+.users{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 20px;
+    height: 50px;
+    background-color: white;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+}
+
+.tit{
+    color: #272944;
+    font-size: 29px;
+}
+
+.all{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.frame1{
+    display: flex;
+    flex-direction: row;
+    color: #272944;
+    align-items: center;
+    font-size: 13px;
+    margin-right: 10px;
+}
+
+.frame1 .fa-shart{
+    color: #272944;
+}
+
+.of{
+    color: white;
+}
+
+.contents{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contents{
+    background-color: #F9F9FA;
+}
+
+.name{
+    display: flex;
+    flex-direction: row;
+    background-color: #F9F9FA;
+    flex-grow: 1;
+    height: 40px;
+    justify-content: space-between;
+}
+
+.one{
+    display: flex;
+    flex-direction: row;
+    width: 430px;
+    justify-content: space-between;
+}
+
+.two{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 440px;
+
+}
+
+.status{
+    color: gray;
+}
+
+.statu{
+    margin-left: 28px;
+    color: gray;
+}
+
+.stat{
+    margin-right: 55px;
+    color: gray;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    height: 28rem;
+    overflow-y: scroll;
+}
+
+.first{
+    background-color: #F9F9FA;
+    display: flex;
+    flex-direction: row;
+    height: 55px;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+
+.left{  /*  */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.together{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.usuario{
+    color: #272944;
+}
+
+.nombre{
+    margin-left: -15px;
+    color: #272944;
+}
+
+.email{
+    color: #272944;
+}
+
+.date{
+    color: #272944;
+}
+
+.ana{
+    color: #8513B6;
+}
+
+.ana .fa-sharp{
+    color:#8513B6;
+    margin-right: 5px;
+}
+
+.sabella{
+    color: #272944;
+}
+
+.sabella .fa-sharp{
+    color: #272944;
+    margin-right: 10px;
+}
+
+.mokhtar{
+    color: #FE4417;
+}
+
+.mokhtar .fa-sharp{
+    color: #FE4417;
+    margin-right: 5px;
+}
+
+.estado{
+    
+    border: none;
+    border-radius: 10%;
+    background-color: #272944;
+    width: 60px;
+    height: 20px;
+    color: #F9F9FA;
+    text-align: center;
+    padding-top: 2px;
+    background-color: #19BA2F;
+    align-items: center;
+}
+
+.estado .fa-sharp{
+    color: #272944;
+}
+
+.circle2{
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    background-image: url(../imagenes/copia.jpg);  
+}
+
+.paw{
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    background-image: url(../imagenes/paw.jpg);  
+}
+
+.poco{
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    background-image: url(../imagenes/pocoyo.png);  
+}
+
+.pta{
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    background-image: url(../imagenes/descarga.jpg);  
+}
+
+.sa{
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    background-image: url(../imagenes/ptazeta.jpg);  
+}
+
+.right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 410px;
+}
+
+.points{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90px;
+    height: 50px;
+}
+
+.points .fa-sharp{
+    color: #272944;
+    margin-left: 10px;
+}

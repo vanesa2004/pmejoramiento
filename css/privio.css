@@ -1,0 +1,411 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3F336B;
+}
+
+#content{
+    width: 99%;
+    background-color: #3F336B;
+}
+
+.options-privio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 99%;
+}
+
+.privio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 20%;
+}
+
+.privio .fa-solid{
+    color: #FFFF;
+    font-size: 150%;
+}
+
+.ima{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ima img{
+    margin-left: 10%;
+}
+
+.ima h1{
+    font-size: 150%;
+    color: #FFFF;
+    margin-left: 3%;
+}
+
+.noti-search{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.noti-search .fa-solid{
+    font-size: 150%;
+    color: #FFFF;
+    margin: 15%;
+}
+
+.dash{
+    color: #FFFF;
+    margin-left: 4%;
+}
+
+#content-film{
+    display: flex;
+    flex-direction: column;
+}
+
+.film{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1%;
+    background-color: #6457AC;
+    padding: 3%;
+    height: 100px;
+}
+
+.avengers{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.description-film{
+    margin-left: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    height: 100px;
+}
+
+.dates{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 30px;
+}
+
+.new{
+    text-decoration: none;
+    background-color: #5FBA85;
+    border-radius: 25px;
+    font-size: 100%;  
+    color: #FFFF;  
+    width: 25%;
+    height: 20px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.morado{
+    text-decoration: none;
+    background-color: #A396E7;
+    border-radius: 25px;
+    font-size: 60%;
+    color: #FFFF;
+    width: 25%;
+    height: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.rosa{
+    text-decoration: none;
+    background-color: #EE63B6;
+    border-radius: 25px;
+    font-size: 65%;
+    width: 25%;
+    height: 15px;
+    color: #FFFF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.lineea{
+    width: 0px;
+    height: 9px;
+}
+
+.date{
+    margin-left: 5%;
+    color: #3F336B;
+}
+.dat{
+    color: #3F336B;
+}
+
+.ultron h3{
+    margin-top: 0%;
+}
+
+.datt{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 40%;
+    height: 20px;
+}
+
+.trailer{
+    color: #3F336B;
+}
+
+.trail{
+   color: #3F336B ; 
+}
+
+  /* SEARCH */
+
+#contenedor{
+    width: 99%;
+}
+
+.menu-privio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;   
+}
+
+.menu-privio .fa-solid{
+    color: #FFFF;
+    font-size: 150%;
+}
+
+.opcion-priv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.opcion-priv img{
+    margin-left: 10% ;
+}
+
+.menu-privio h1{
+    font-size: 150%;
+    color: #FFFF;
+    margin-left: 3%;
+}
+
+.send{
+    color: #FFFF;
+    font-size: 150%;
+}
+
+.barra{  /* iconos derecha */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sech-icon{
+    display: flex;
+    flex-direction: column; 
+    width: 60%; 
+}
+
+.serch{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+}
+
+.serch .fa-solid{
+    color: #A396E7;
+    font-size: 130%;
+}
+
+.serch p{
+    color: #A396E7;
+    margin-left: 10%;
+    font-size: 130%;;
+}
+
+.ache{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+hr{
+    width: 100%;
+    height: 0px;
+    margin-top: -1%;
+}
+
+.icon-date{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 35%;
+    height: 79px;
+}
+
+.a-z{
+    display: flex;
+    flex-direction: column;
+    margin: 3%;  
+}
+
+.a-z .fa-solid{
+    font-size: 180%;
+    color: #A396E7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.a-z p{
+    color: #A396E7;
+    margin-top: 4%;
+}
+
+.clock{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 3%;
+}
+
+.clock .fa-sharp{
+    font-size: 180%;
+    color: #A396E7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+.clock p{
+    color: #A396E7;
+    margin-top: 4%;
+} /* iconos  */
+
+.new-film{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.pelicula{
+    width: 135px;
+    margin: 3%;
+}
+
+.iconoss img{
+    width: 90%;
+}
+
+.pelicula h4{
+    margin-top: -1%;
+    color: #A396E7;
+    margin-bottom: -1%;
+}
+
+/*     TRAILER     */
+
+#wonder{
+    width: 99%;
+}
+
+.woman{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.woman video{
+    width: 99%;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    margin: 2% 2% 2% 2%;
+}
+
+.final{
+    margin-top: -1%;
+}
+
+.info{
+    display:flex;
+    flex-direction: row;
+    width: 80%;
+    align-items: center;
+    color: #A396E7;
+}
+
+.info hr{
+    width: 0%;
+    height: 10px;
+    color: #A396E7;
+}
+
+.description p{
+    color: #A396E7;
+}
+
+.comment{
+    border: 1px solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.aling{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.options-comment{
+    width: 99%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#comment {
+    width: 60%;
+    height: 40px;
+    text-decoration: none;
+    color: #A396E7;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 25px;
+    
+}
